@@ -301,7 +301,7 @@ def add_text_to_video(input_video, text, duration=1, fontsize=40, fontcolor=(255
 
     cap.release()
     out.release()
-    cv2.destroyAllWindows()
+    # cv2.destroyAllWindows()
     
     return output_video
 
