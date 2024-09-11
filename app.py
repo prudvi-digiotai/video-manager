@@ -60,8 +60,8 @@ with open('token.json', 'w') as f:
 import streamlit as st
 from agents import ResearchAgent, VideoAgent, EmailAgent
 from langchain_openai import ChatOpenAI
-from dotenv import load_dotenv
-load_dotenv()
+# from dotenv import load_dotenv
+# load_dotenv()
 
 st.title("Video Manager")
 
