@@ -84,7 +84,7 @@ if st.button("Submit"):
             st.write("Video created ✅")
 
         with st.expander("Video"):
-        st.video(video_path)
+            st.video(video_path)
 
         with st.spinner("Sending email..."):
             email_agent = EmailAgent(llm, to_mail)
