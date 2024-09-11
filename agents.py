@@ -131,7 +131,7 @@ class VideoAgent:
         script = self.generate_script()
         video_path = generate_video(script, self.topic, True)
         akg = self.upload_to_drive(video_path)
-        return akg
+        return akg, video_path
 
 class EmailAgent:
     def __init__(self, llm, to_mail):
